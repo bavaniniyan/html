@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>Book Me..</title>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+         <style>
+        #wrapper {display: flex;}
+
+#left {flex: 0 0 65%; margin-left: 10px;}
+
+#right {flex: 1; margin-top: 20px;}
+
+
+.container {display: flex;}
+.container > div {flex: 1; /*grow*/}
+
+
+.food{
+color: red;
+border: 2px solid maroon;
+margin: 20px;
+padding: 40px;
+background-image: url("food.jpg");
+background-size: cover;
+width: 400px;
+border-radius: 8px;
+font-weight: bold;
+font-size: 20px;
+}
+
+.rentcar{
+color: red;
+border: 2px solid maroon;
+margin: 20px;
+padding: 40px;
+background-image: url("picme.png");
+background-size: cover;
+width: 400px;
+border-radius: 8px;
+font-weight: bold;
+font-size: 20px;
+}
+
+.hotel{
+color: red;
+border: 2px solid maroon;
+margin: 20px;
+padding: 40px;
+background-image: url("hotel.jpg");
+background-size: cover;
+width: 400px;
+border-radius: 8px;
+font-weight: bold;
+font-size: 20px;
+}
+
+.footer {
+color: black;
+padding: 2px;
+position: absolute;
+}
+</style>
+    </head>
+
+    <body style="background: silver;">
+        <div style="background: slategrey;" id="wrapper">
+            <div id="left">
+                <h3>Booking Lanka</h3>
+                <i class='fas fa-hamburger' style='font-size:24px'></i>
+                <i class='fas fa-car' style='font-size:24px'></i>
+                <i class='fas fa-bed' style='font-size:24px'></i>
+            </div>
+            <div id="right">
+                <input type="text" name="email" placeholder="email">
+                <input type="password" name="password" placeholder="Password">
+                <input type="submit" name="submit_name" value="Log In" style="background-color: skyblue;">
+            </div>
+        </div>
+
+
+        <div style="background: rosybrown;">
+         <h1 style="margin: 10px;">Booking Lanka</h1>
+         <p style="margin: 10px;">Welcome to Lanka! Would you like to visit many place in Lanka,We with you!,We can make easy to your journey.
+            Howw? The answer is "You can book, What do you want?"
+            Booking Lanka is available in 43 languages and offers more than 28 million 
+            total reported accommodation listings, including over 6.2 million 
+            listings alone of homes, apartments and other unique places to stay.
+             No matter where you want to go or what you want to do, Booking.com makes it 
+             easy and backs it all up with 24/7 customer support </p>
+             <input type="submit" name="submit_name" value="Learm More.." style="background-color: skyblue;">
+        </div>
+
+    
+        <div class="container">
+            <div class="hotel">
+                <h2>Stays</h2>
+                <p>Select your favourite Hotel in here..</p>
+                <input type="submit" name="submit_name" value="Move >>" style="background-color: skyblue;">
+            </div>
+
+            <div class="rentcar">
+                <h2>Rent Cars</h2>
+                <p>Rent a Car for your journey with Driver</p>
+                <input type="submit" name="submit_name" value="Move >>" style="background-color: skyblue;">
+            </div>
+
+            <div class="food">
+                <h2>Foods</h2>
+                <p>Do you feel hungry?do an order here..</p>
+                <input type="submit" name="submit_name" value="Move >>" style="background-color: skyblue;">
+            </div>
+        </div>
+
+        <div class="footer">
+            
+            <p><i class='far fa-copyright'></i>Booking Lanka pvt Company<br>
+            <a href="https://www.google.com/" target="_blank">Learn More</a></p> 
+        
+        </div>
+
+    </body>
+
+</html>
